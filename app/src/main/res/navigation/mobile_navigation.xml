@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_login">
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.pc1_dam_21100310.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_listado"
+        android:name="com.example.pc1_dam_21100310.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_listado" />
+    <fragment
+        android:id="@+id/nav_rendimiento"
+        android:name="com.example.pc1_dam_21100310.RendimientoFragment"
+        android:label="rendimientoFragment"
+        tools:layout="@layout/nav_rendimiento" />
+    <fragment
+        android:id="@+id/nav_equipo"
+        android:name="com.example.pc1_dam_21100310.EquipoFragment"
+        android:label="equipoFragment"
+        tools:layout="@layout/nav_equipo" />
+</navigation>
